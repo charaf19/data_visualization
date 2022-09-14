@@ -35,7 +35,10 @@ fig.update_layout(
     bargap=0.0,
     bargroupgap=0,
     xaxis=dict(
-        tickvals=[-4000000]
+        tickvals=[-4000000,-2000000,0,2000000,4000000],
+        ticktext=['4M','2M','0','2M','4M'],
+        title='Population in Morocco in 2022',
+        title_font_size=14
     )
 )
 
